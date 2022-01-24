@@ -28,7 +28,7 @@ bool check(int row, int col, int num) {
 	return true;
 }
 
-// 재귀: 9분할로 나눠보는 함수
+// 재귀: 9분할로 나눠주고 res를 갱신하는 함수
 void divide(int row, int col, int num) {
 	
 	if (check(row, col, num)) {		// 단위 종이 내 모든 칸들의 값이 같다면
